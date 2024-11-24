@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My API Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 15px;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, Developer!</h1>
+        <ul>
+            <li><a target="_blank" href="{% url 'redoc' %}">Redoc</a> - View API documentation using Redoc</li>
+            <li><a target="_blank" href="{% url 'swagger-ui' %}">Swagger</a> - Explore API endpoints with Swagger</li>
+            <li><a target="_blank" href="https://t.me/abduvohid_dev">Admin</a> - Web site admin with connect</li>
+        </ul>
+        <p style="text-align: center;">By Abdujalilov Abduvohid</p>
+    </div>
+</body>
+</html>
